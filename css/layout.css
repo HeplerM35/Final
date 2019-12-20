@@ -1,0 +1,111 @@
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #00F2FA;
+}
+
+li{
+  float: left;
+}
+
+li a{
+  display: block;
+  color: #17202A;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: cursive;
+}
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+.animal-image {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.music-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #2E4053;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  width: 100%;
+}
+
+.text {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+nav a {
+	clear: both;
+	margin-left: 0;
+	width: 90%;
+	float: left;
+	display: block;
+	height: 50px;
+	overflow: hidden;
+	margin-bottom: 0px;
+}
+
+
+nav ul li {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-size: x-large;
+}
+
+nav ul li a {
+	color: #FDFEFE;
+	text-decoration: none;
+	display: block;
+
+}
+nav ul li a:visited {
+	color: #17202A;
+}
+nav ul li a:hover {
+	background-color: #FDFEFE;
+	color: #17202A;
+}
+nav ul li a:focus {
+	outline: thin dotted;
+}
+nav ul li a:hover, nav ul li a:active {
+	outline: 0;
+}
